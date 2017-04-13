@@ -1,0 +1,81 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require bootstrap
+*= require main
+*= require mobile
+*= require_self
+*/
+
+.logo-icon img {
+    border: 0px none rgb(255, 255, 255);
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    box-sizing: border-box;
+    cursor: auto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 40px;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    float: left;
+}
+
+
+.navbar-brand{
+    display: inline-block;
+    float: left;
+}
+
+.navbar-toggle{
+    display: inline-block;
+    float: right;
+}
+
+.navbar{
+    background-color: rgba(44, 45, 134, 0.9);
+    position: fixed;
+    width: 100%;
+
+}
+
+.clouds-1{
+    background-image:url(../images/cloud_background_6_by_j4smini-d6bg3op.png);
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.clouds-2{
+    background-image:url(../images/cloud_background_9_by_j4smini-d6bg3qq.png);
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.blue{
+    background-color: #91bbff;
+    color: white;
+}
+
+.creature{
+
+    margin-bottom: 40px;
+
+}
